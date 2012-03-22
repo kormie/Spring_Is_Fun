@@ -138,6 +138,12 @@
             <artifactId>cglib</artifactId>
             <version>2.2.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>[2.3.18,2.4)</version>
+        </dependency>
+
     </dependencies>
 
 
