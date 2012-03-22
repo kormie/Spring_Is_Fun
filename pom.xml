@@ -70,15 +70,7 @@
                             <goal>run</goal>
                         </goals>
                         <configuration>
-                            <target>
-                                <!-- Execute an ant task within maven -->
-                                <echo message="Hello World from pom.xml"/>
-                                <!-- Execute an ant task in an external build.xml file. It assumes the file is called 
-                                build.xml and is located in the same directory as the pom.xml file. The target in
-                                the external file is called default.
-                                -->
-                                <ant target="default"/>
-                            </target>
+
                         </configuration>
                     </execution>
                 </executions>
