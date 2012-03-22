@@ -1,5 +1,4 @@
 package mspace.domain.db;
-
 import mspace.domain.Book;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
