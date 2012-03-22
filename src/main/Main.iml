@@ -8,6 +8,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:3.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:3.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:3.1.0.RELEASE" level="project" />
   </component>
 </module>
 

@@ -1,17 +1,18 @@
 package mspace.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
 public class HelloController {
 
     @RequestMapping("/hello.html")
-    public String handleRequest(Model model) {
+    public ModelAndView handleRequest() {
 
-        model.addAttribute("message", "HELLO!!!");
-        return "hello";
+        ModelAndView modelAndView = new ModelAndView("hello");
+        modelAndView.addObject("message", "HELLO!!!");
+        return modelAndView;
     }
 }
