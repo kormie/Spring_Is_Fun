@@ -1,2 +1,12 @@
 target/
+.idea
+*.class
+*.iml
+.vagrant
+*.log
+*.ipr
+*.iws
+*.metadata/
+*.DS Store
+*swp
 .idea/
