@@ -6,6 +6,6 @@ target/
 *.ipr
 *.iws
 *.metadata/
-*.DS Store
+*.DS_Store
 *swp
 .idea/
