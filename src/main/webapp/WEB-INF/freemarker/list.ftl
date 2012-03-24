@@ -7,32 +7,25 @@
 			Hello page
 		</title>
 		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap-responsive.css">
-		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap-responsive.css">
-		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap-responsive.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
 	</head>
 	<body>
-	<h1></h1>
+	<h2 style="text-align:center">Our Totally Awesome Task List</h2>
 		<div class="main">
 			<div class="header"></div>
 			<div class="todos" style="width:400px; margin:auto">
 				<ul style="list-style:none">
-					<li>
-					<
-						<div class="todo">
-							<form id="" name="" style="margin: 15px 0px">
-								<input type="checkbox" name="checkbox" value="done">
-								<span style="margin-left:20px">This is a todo item</span>
-							</form>
-						</div>
-					</li>
-					<li>
-						<div class="todo">
-							<form id="" name="" style="margin: 15px 0px">
-								<input type="checkbox" name="checkbox" value="done">
-								<span style="margin-left:20px">This is another todo item</span>
-							</form>
-						</div>
-					</li>
+					<#list todoList as todoItem>
+                        <li>
+                            <div class="todo">
+                                <form name="" style="margin: 15px 0px">
+                                    <input type="checkbox" name="checkbox" value="done">
+                                    <span style="margin-left:20px">${todoItem}</span>
+                                </form>
+                            </div>
+                        </li>
+
+                    </#list>
 					<li class="empty">
 						<div class="todo">
 							<form action="success.html" method="post" style="margin: 15px 0px">
